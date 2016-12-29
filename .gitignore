@@ -5,3 +5,7 @@ ignore
 *.hlt
 orchid
 halite
+logs
+replays
+*.log
+profiles

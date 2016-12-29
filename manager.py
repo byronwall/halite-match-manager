@@ -26,10 +26,10 @@ from skills import trueskill
 from subprocess import Popen, PIPE, call
 
 
-halite_command = "./halite"
+halite_command = "../halite"
 replay_dir = "replays"
 # db_filename is now specified at command line, with the default set to "db.sqlite3"
-browser_binary = "firefox"
+browser_binary = "chrome"
 
 def max_match_rounds(width, height):
     return math.sqrt(width * height) * 10.0
